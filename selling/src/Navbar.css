@@ -1,0 +1,136 @@
+body{
+  margin: 0;
+  font-family: system-ui;
+
+}
+.parallax, .parallax1{
+  background-image: url(../public/img/fruit.jpg);
+  height: max-content;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.page-title{
+  background: rgba(0, 0, 0,0.5);
+  text-align: center;
+  color: white;
+  padding: 50px;
+  font-variant: small-caps;
+  font-size: 100px;
+  font-family: fantasy;
+  letter-spacing: 20px;
+}
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.menu{
+  background: #184d47;
+  text-align: center;
+
+}
+.menu-ul{margin: 0;
+padding: 0;
+display: inline;
+
+}
+
+.menu-ul li{
+  font-size: 17px;
+  list-style: none;
+  display: inline-block;
+  padding: 25px 25px 26px 25px;
+}
+
+.a-menu{
+  text-decoration: none;
+  color: white;
+}
+
+.menu-ul li:hover{
+  background: #5b8c5a;
+  transform: scale(1.1);
+}
+
+.search-box{
+  border: 1px solid white;
+  border-radius: 50px;
+  background: white;
+  width: max-content;
+  display: inline-block;
+  margin: 8px;
+}
+
+.search-box:hover{
+  box-shadow: 0 0 10px 2px #5b8c5a;
+  border: 1px solid #5b8c5a;
+}
+
+.search-input{
+  width: 250px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  background: transparent;
+  margin: 15px 0 0 10px;
+}
+
+i{
+  font-size: 20px;
+}
+
+button{
+  background: transparent;
+  border: none;
+}
+
+/***********footer**********/
+
+.parallax1{
+  background-image: url(../public/img/footerbgm.jpg);
+  
+}
+
+.footer{
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 20px;
+}
+
+.quick-links{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  min-width: 30%;
+}
+
+.quick-links ul{
+  padding: 0;
+}
+
+.quick-links li{
+  list-style: none;
+  padding: 10px;
+  font-weight: 300;
+}
+
+.a-links{
+  text-decoration: none;
+  color: white;
+}
+
+.a-links:hover{
+  color: #fd5e53;
+
+}
+
+.copyright{
+  font-size: 16px;
+  font-family: veranda, arial, helvecita, sans-serif;
+  text-align: center;
+  margin: 15px;
+}

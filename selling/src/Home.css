@@ -1,0 +1,97 @@
+.container, .deals-container{
+    margin: 50px 50px 50px 5%;
+    width: 90%;
+    text-align: center;
+}
+.categories, .items{
+    width: max-content;
+    margin: 25px;
+    border: 1px solid #184d47;
+    border-radius: 0 0 50px 50px;
+    display: inline-block;
+}
+.categories:hover, .items:hover{
+    box-shadow: 0 0 10px 3px #184d47;
+}
+.item-image{
+    height: 200px;
+    width: 200px;
+    border-radius: 0 0 50px 50px;
+    padding: 10px;
+}
+
+.image-title{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+/**********Deal**********/
+
+.title{
+    padding: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.deal{
+    padding: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 20px;
+    max-width: 20%;
+    background: linear-gradient(120deg,#16817a 20%,#cee397 50%,#16817a 80%);
+}
+
+.coupon-btn{
+    border: 1px solid white;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.coupon-btn:hover{
+    box-shadow: 0 0 10px 5px white inset;
+}
+
+.images{
+    display: inline-block;
+}
+
+.item-image-size{
+    height: 200px;
+    width: 300px;
+    padding: 5px;
+}
+
+.description{
+    margin: 20px;
+    min-height: 100px;
+}
+
+.item-select{
+    margin: 10px 0 0 0;
+}
+
+.buynow-btn{
+    border: 1px solid #184d47;
+    background: #184d47;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+}
+
+.buynow-btn:hover{
+    border: 1px solid #5b8c5a;
+    box-shadow: 0 0 10 5px #5b8c5a inset;
+}
