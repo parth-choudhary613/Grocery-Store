@@ -1,4 +1,5 @@
 Grocery List Application
+
 Introduction
 The Grocery List Application is a user-friendly app that allows you to manage your grocery list. 
 It is built using React.js for the frontend, Bootstrap for styling, and vanilla JavaScript for some
